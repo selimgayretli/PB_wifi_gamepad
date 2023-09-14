@@ -1,0 +1,65 @@
+<!DOCTYPE html><html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+body{background-color:white;}
+button{background-color:white; border:0px; color:#e62b2b;}
+
+.body_div{background-color:white; display:flex; width:800px; height:400px;  justify-content: center; align-items: center;}
+.center_div{display:flex; background-color:white; width:750px; height:350px; flex-direction: row; border-radius: 25px;}
+.leftdiv{background-color:#f9b333;width:375px; box-shadow: 0px 15px 10px 0px #e62b2b; height:350px; border-top-left-radius:150px; border-bottom-left-radius:150px; border-bottom-right-radius:150px; border-top-left-radius:150px; flex-direction: column; justify-content: center; align-items: center;}
+.first{display:flex; margin:30px 30px 0px 30px; margin-top:60px; }
+.buttonup{ display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-left:100px; font-size:50px;}
+
+.seccond{ display:flex; flex-direction:row; justify-content:space-between;  margin:20px 30px 20px 30px;}
+.buttonleft{ transform: rotate(-90deg); display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justify-content: center;  align-items:center; font-size:50px;}
+.buttonright{transform: rotate(-90deg); display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justify-content: center; align-items:center; font-size:50px;}
+.buttonstop{display:flex; width:50px; height:50px; border-radius:100px; flex-direction: column; justify-content:center; align-items:center;  margin-top:10px; font-size:50px;}
+.sec1{display:flex; width:50px; height:50px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-left:0px;  margin-top:10px;}
+.sec2{display:flex; width:50px; height:50px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-right:0px;  margin-top:10px;}
+.third{ margin:0px 30px 30px 30px; display:flex;}
+.rightdiv{background-color:#ee7131;  box-shadow: 0px 15px 10px 0px #f9b333; width:375px; height:350px;   border-top-right-radius:150px; border-bottom-left-radius:150px; border-bottom-right-radius:150px;}
+
+.buttondown{display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-left:100px; font-size:50px;}
+.servodown{color:#f9b333; display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-left:120px; font-size:50px;}
+.servoup{ color:#f9b333; display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justif-content:center; align-items:center; margin-left:120px; font-size:50px;}
+.servoleft{ color:#f9b333; transform: rotate(-90deg); display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justify-content: center;  align-items:center; font-size:50px;}
+.servoright{ color:#f9b333; transform: rotate(-90deg); display:flex; width:60px; height:60px; border-radius:100px; flex-direction: column; justify-content: center; align-items:center; font-size:50px;}
+.servostop{ color:#f9b333; display:flex; width:50px; height:50px; border-radius:100px; flex-direction: column; justify-content:center; align-items:center;  margin-top:10px; font-size:50px;}
+</style></head>
+<form> 
+<center><div class="body_div">
+    <div class="center_div">
+        <div class="leftdiv" >
+            <div class="first">
+                <button class="buttonup" name="motordriver" value="up" type="submit">&#9650;</button>
+            </div>
+            <div class="seccond">
+                <button class="buttonleft" name="motordriver" value="left" type="submit">&#9650;</button>
+                <button class="buttonstop" name="motordriver" value="stop" type="submit"></button>
+                <button class="buttonright" name="motordriver" value="right" type="submit">&#9660;</button>
+                <button class="sec1"></button>
+            </div>
+            <div class="third">
+				<button class="buttondown" name="motordriver" value="down" type="submit">&#9660;</button>
+            </div>
+        </div>
+        <div class="rightdiv" >
+            <div class="first">
+                <button class="servoup" name="" value="" type="submit">&#9651;</button>
+            </div>
+            <div class="seccond">
+				<button class="sec2"></button>
+                <button class="servoleft" name="" value="" type="submit">&#8865;</button>
+                <button class="servostop" name="" value="" type="submit"></button>
+                <button class="servoright" name="" value="" type="submit">&#8857;</button>
+                
+            </div>
+            <div class="third">
+				<button class="servodown" name="" value="" type="submit">&#120247;</button>
+            </div>
+        </div>
+    </div>
+</div></center>
+</form>
+</body></html>
