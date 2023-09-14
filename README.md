@@ -1,1 +1,1 @@
-# PicoBricks Wi-Fi Game Pad Projects
+# PicoBricks Wi-Fi Gamepad Projects
