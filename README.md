@@ -5,5 +5,8 @@ https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/b9fcac26-0c8b-
 ## PicoBricks Robot Arm Controled
 https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/18942bfe-70c5-4cd0-af49-012915d5b7b0
 ## Project Details:
+- Enter your Wi-Fi ID and password inside the MicroPython code.
 
-
+<p align="center">
+  <img src="https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/7c3fd98d-5a8c-4ab3-aacc-12cbf19b62d8" alt="animated" />
+</p>
