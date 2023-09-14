@@ -16,3 +16,8 @@ https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/18942bfe-70c5-
 <p align="center">
   <img src="https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/571c2b8c-1b96-4358-ba26-2cc97d671886" />
 </p>
+- You can control PicoBricks Robot tank or robot arm from the “PicoBricks Gamepad”.
+
+<p align="center">
+  <img src="https://github.com/selimgayretli/PB_wifi_gamepad/assets/113355046/572b9885-ae48-4591-b51e-dbe27541af79" />
+</p>
